@@ -6,7 +6,7 @@ const { Client, LocalAuth } = WhatsAppWebPkg;
 const client = new Client({
     authStrategy: new LocalAuth({ 
         dataPath: '_tokens', 
-        clientId: "client-one" 
+        clientId: 'client-one' 
     })
 });
 
