@@ -1,0 +1,17 @@
+{
+  "name": "chatbot-1",
+  "version": "1.0.0",
+  "description": "Primeiro chatbot para whatsapp (API Não oficial)",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "test"
+  },
+  "author": "Giovani Cassiano Nogueira",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.18.3"
+  }
+}
